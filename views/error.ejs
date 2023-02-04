@@ -1,14 +1,25 @@
+<!-- 
+Mohamed Erwa
+301282137
+COMP229 Sec004
+Error Page
+4/2/2023 
+-->
+
+<!-- Header -->
 <%- include partials/header.ejs %>
 
+<!-- Main Nav -->
 <%- include partials/main_nav.ejs %>
 
 <div class="container">
-    <h1><%= message %></h1>
-    <h2><%= error.status %></h2>
-    <pre><%= error.stack %></pre>
+  <h1><%= message %></h1>
+  <h2><%= error.status %></h2>
+  <pre><%= error.stack %></pre>
 </div>
 
-
+<!-- Bottom Nav -->
 <%- include partials/bottom_nav.ejs %>
 
+<!-- Footer -->
 <%- include partials/footer.ejs %>
