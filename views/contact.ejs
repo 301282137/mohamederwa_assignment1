@@ -8,6 +8,42 @@
 <main class="container">
   <div class="jumbotron">
     <h1 class="display-4" style="text-align: center"><%= title %></h1>
+    <body>
+      <div class="container mt-5">
+        <div class="container text-center">
+          <div class="row a lign-items-start">
+            <div class="col">
+              <h3>Our Contact Info</h3>
+              <br />
+              <p>Mohamed Erwa Inc.</p>
+              <p>437-973-6101</p>
+              <p>info@mohamederwainc.com</p>
+              <p>17 Windover Dr, Scarborough, ON M1G 1P1</p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <h2 class="text-center">Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" class="form-control" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message"></textarea>
+          </div>
+          <button type="submit" href="/home" class="btn btn-primary">
+            Submit
+          </button>
+        </form>
+      </div>
+    </body>
   </div>
 </main>
 
