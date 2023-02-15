@@ -10,18 +10,17 @@
     "npm": "^6.0.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0",
-    "bootstrap": "^4.5.2",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^4.6.2",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
     "http-errors": "~1.6.3",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.3",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
   "description": "demo app for COMP229 Week 3",
-  "main": "server.js",
-  "devDependencies": {}
+  "main": "server.js"
 }
