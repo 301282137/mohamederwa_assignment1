@@ -15,10 +15,10 @@
             <br>
             <table class="table table-bordered table-striped table-hover">
                 <!-- Header Row-->
-                <tr class="d-flex">
+                <tr>
                     <th class="text-center col-2">Name</th>
                     <th class="text-center col-2">Number</th>
-                    <th class="text-center col-1">Email</th>
+                    <th class="text-center col-4">Email</th>
                     <th class="text-center col-1"></th>
                     <th class="text-center col-1"></th>
                 </tr>
@@ -26,7 +26,7 @@
                 <!-- Repeatable Template Row -->
 
                 <% for(let count = 0; count < ContactList.length; count++) { %>
-                    <tr class="d-flex">
+                    <tr>
                         <td class="text-center col-2"><%= ContactList[count].name %></td>
                         <td class="text-center col-2"><%= ContactList[count].number %></td>
                         <td class="text-center col-1"><%= ContactList[count].email %></td>
