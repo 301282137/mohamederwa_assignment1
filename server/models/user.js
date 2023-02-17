@@ -1,3 +1,8 @@
+// Mohamed Erwa
+// 301282137
+// COMP229 Sec004
+// 17/2/2023
+
 // require modules for the User Model
 let mongoose = require('mongoose');
 let passportLocalMongoose = require('passport-local-mongoose');
